@@ -11,30 +11,31 @@ export default class Projects extends React.Component {
       showme: true,
       projects: [
         {
+          category: "Web3 App",
+          name: "EasyFund",
+          image: taxibazaar,
+          description:"Crowdfunding over the years has helped the people but has also seen heavy frauds in the name of crowdfunding. With Betterfund we want to bring transparency to the process of crowdfunding and build trust among people to contribute to all the causes. It is to be a ReactJS based application, which will be supported by any browser. User will require 'Metamask' browser extension to sign the transactions.",
+          link: "https://better-fund-two.vercel.app/",
+          button: "Demo Link",
+        },
+        {
+          category: "Web Page",
+          name: "EasyShop | Ecommerce",
+          image: feelgood,
+          description:"Full-stack ecommerce application built with MERN stack. Currently under construction for additional features. This project has features like buyers register and browse the marketplace while interacting with products across different categories and admins control and manage the marketplace items and customer acounts.",
+          link: "https://easy-shop-1.vercel.app/",
+          button: "Demo Link",
+        },
+        {
           category: "DApp",
           name: "Krypt | Ethereum Transfer DApp",
           image: pack,
           description:"Krypt is a blockchain-based payment solution that is used to facilitate cryptocurrency transfers, currentlyEthereum. Any user can connect their crypto wallets and start using the app.",
           link: "https://krypto-client-yo1f.vercel.app/",
           button: "Demo Link",
-        },
-        {
-          category: "DApp",
-          name: "Decentralized Social Media | Lens Protocol",
-          image: feelgood,
-          description:"Decentralized Social Media platform based on LensProtocol which lets user login through their lens profile andtake the ownership of their own content on the platform.",
-          link: "https://social-media-lensprotocol.vercel.app/",
-          button: "Demo Link",
-        },
-        {
-          category: "Web Page",
-          name: "Crypto Coins Tracker",
-          image: taxibazaar,
-          description:
-            "The website is a cryptocurrency tracker that offers users data and information on different cryptocurrencies in real-time. It is intended to assist people in keeping abreast of the most recent market events, pricing, and trends in the world of digital currencies.",
-          link: "https://crypto-coins-tracker-five.vercel.app/",
-          button: "Demo Link",
-        },
+        }
+        
+        
       ],
     };
   }
